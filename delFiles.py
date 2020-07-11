@@ -6,9 +6,9 @@ os.chdir(input("Enter the Directory..\n"))
 print("Which type of files you want to delete?")
 print("Example Format:")
 print("txt / pdf / doc / jpg")
-format = input("Enter the Format here: ")
+theFormat = input("Enter the Format here: ")
 
-files = glob.glob('*.'+format, recursive=False)
+files = glob.glob('*.'+theFormat, recursive=False)
 print(files)
 
 #This part is still being updated
@@ -28,6 +28,3 @@ elif finalAns == "N":
     print("Aborting Operation..")
 else:
     print("Enter Only Capital Y or Capital N..")
-
-
-
