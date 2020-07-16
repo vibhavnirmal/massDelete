@@ -2,4 +2,6 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/vibhavnirmal/misc-scripts/badge)](https://www.codefactor.io/repository/github/vibhavnirmal/misc-scripts)
 
 1. Mass Delete Files ending with particular format through command line.
-2. Image Metadata extraction and manipulation script. (Get Metadata from an Image file... Can get all the metadata of images from a folder..)
+2. Move photos using Image Metadata. And metadata extraction and manipulation.(Get metadata from Images..)
+
+Free For All.. Check code before executing the files.
