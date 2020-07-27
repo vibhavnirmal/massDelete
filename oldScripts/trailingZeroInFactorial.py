@@ -4,8 +4,7 @@ x = int(input())
 def factorial(x):
     if x <= 1:
         return x
-    else:
-        return x * factorial(x-1)
+    return x * factorial(x-1)
 
 count = 0
 def count_zeros(p):
@@ -15,8 +14,7 @@ def count_zeros(p):
         count = count + 1
         count_zeros(p)
         return count
-    else:
-        return count
+    return count
 
 y = factorial(x)
 print(y)

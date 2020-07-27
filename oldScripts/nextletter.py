@@ -1,6 +1,6 @@
-def LetterChanges(str): 
+def LetterChanges(String): 
     strnew = ""
-    for i in str:
+    for i in String:
         strnew+=chr(ord(i)+1)
     
     return strnew

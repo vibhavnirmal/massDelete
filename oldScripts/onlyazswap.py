@@ -1,6 +1,6 @@
-def LetterChanges(str): 
+def LetterChanges(String): 
     strnew=""
-    for i in str:
+    for i in String:
         if(ord(i)>65 and ord(i)<91):
             if(ord(i)==64 or ord(i)==68 or ord(i)==72 or ord(i)==78 or ord(i)==84):
                 strnew+=chr(ord(i)+33)
